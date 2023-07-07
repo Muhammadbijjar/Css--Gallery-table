@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  }
+  .name-2 {
+    border: 1px solid black;
+    justify-content: center;
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  tr th {
+    cursor: pointer;
+    color: #fff;
+    
+    text-align: center;
+    border-style: none;
+    background-color: rgb(70, 68, 68);
+  }
+  
+  tr td {
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .color-1 {
+    background-color: rgba(169, 169, 169, 0.568);
+  }
+  
+  .color-2 {
+    background-color: brown;
+  }
+  
+  .color-3 {
+    background-color: rgb(118, 118, 10);
+  }
+  
+  
+  
+  
+  
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+  }
+  .images{
+    flex: 30%;
+    overflow: hidden;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .gallery .images img{
+    width: 100%;
+    transition: 0.4s;
+  }
+  
+  .gallery .images:hover img{
+    transform: scale(1.5);
+  }
